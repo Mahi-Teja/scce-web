@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Baloo+Bhaina+2:wght@400;800&family=Baloo+Tamma+2&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Baloo+Bhaijaan+2:wght@400;600&family=Baloo+Bhaina+2:wght@400;800&family=Baloo+Tamma+2&family=Lato:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    /* background: gray; */
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+/* website head */
+.logo-left{
+    float: left;
+    clear: both;
+    
+}
+
+.logo-left img{
+    height: 74px;
+    width: 74px;
+    margin: 19px 0 0 21px;
+}
+.logo-head{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: inline-flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 27px;
+    cursor: default;
+
+}
+.head{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    color: red;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    /* background-color: gray; */
+    /* position: absolute;
+    top: 15%; */
+    box-sizing: border-box;
+    box-shadow: 2px 2px 25px darkgrey;
+    border-radius: 30px;
+    margin: 13px 0px ;
+}
+form{
+    padding: 5px;
+} 
+ .student{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 365px;
+    width: 580px;
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+ h2{
+    padding-top: 25px;
+    font-size: 22pt;
+    padding: 16px;
+    color: red;
+    cursor: default;
+}
+.ht{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 30vw;
+    border-radius: 6px;
+    font-size: 15pt;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+}
+.login{
+    
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 12pt;
+}
+.login:hover{
+    background-color: rgb(4, 4, 107);
+
+}
+.student a{
+    text-decoration: none;
+    color: rgb(46, 42, 42);
+    margin: 14px;
+    margin-bottom: 5px;
+}
+.student a:hover, .logo-head a:hover{
+    color: red;
+}
+.student .fblink{
+    margin-top: 3px;
+}
+
+/* footer */
+.footer{
+    background-color:  rgb(8, 0, 114);
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+    font-size: 10pt;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+.footer ul li a{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+    color: white;
+    
+}
+footer li{
+    list-style: none;
+}
+.foot{
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot a:hover{
+    text-decoration: underline;
+}

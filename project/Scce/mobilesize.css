@@ -1,0 +1,62 @@
+@media (max-width:420px) and (min-width:360px){
+    
+    body{
+        font-size: 25px;
+        width: 100%;
+    }
+    .top-nav{
+        background-color:  #c46565dc ;
+        height: 5vh;
+        font-size:5px;
+        display: inline;
+        
+        /* float: left;  */
+        display: flex;
+        align-items: center;
+        width: 100%; 
+        justify-content: space-between;
+        padding: 1px 0;
+        line-break: 1.5px;
+        top: 1px;
+    }
+    .logo-left img{
+        height:3em;
+        width: 3em;
+        
+    }
+    .logo-head{
+        font-size: 7px;
+        height: 3vh;
+        padding: none;
+        margin: none;
+        /* overflow: hidden; */
+    }
+    .logo-head h1{
+        font-size: 3px;
+        
+    }
+    .logo-right img{
+        height:3em;
+        width: 3em;
+        
+    }
+
+    .cards{
+        display: grid;
+        grid-template-rows: 25%;
+        justify-content: space-evenly;
+        /* height: 30px; */
+        /* border: 2px solid black; */
+    }
+    .cards .card{
+        height: 18em;
+    }
+    .card{
+        /* height: 20px; */
+        width: -webkit-fill-available;
+    }
+    .footer{
+        margin: 0;
+        font-size: 15px;
+    }
+}
