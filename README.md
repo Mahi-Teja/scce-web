@@ -1,1 +1,3 @@
-# scce-web
+---
+permalink: /index.html
+---
